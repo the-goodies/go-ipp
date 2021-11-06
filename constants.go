@@ -355,6 +355,7 @@ const (
 	AttributeNumberOfDocuments      = "number-of-documents"
 	AttributeJobOriginatingUserName = "job-originating-user-name"
 	AttributeOutputOrder            = "outputorder"
+	AttributeSides                  = "sides"
 )
 
 // Default attributes
@@ -419,5 +420,6 @@ var (
 		AttributeStatusMessage:          TagText,
 		AttributeLimit:                  TagInteger,
 		AttributeOutputOrder:            TagName,
+		AttributeSides:                  TagKeyword,
 	}
 )
