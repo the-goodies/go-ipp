@@ -341,6 +341,7 @@ const (
 	AttributeNumberUp               = "number-up"
 	AttributeOrientationRequested   = "orientation-requested"
 	AttributePrintQuality           = "print-quality"
+	AttributePrintColorMode         = "print-color-mode"
 	AttributePrinterIsAcceptingJobs = "printer-is-accepting-jobs"
 	AttributePrinterResolution      = "printer-resolution"
 	AttributePrinterState           = "printer-state"
@@ -399,6 +400,7 @@ var (
 		AttributePPDMakeAndModel:        TagText,
 		AttributeNumberOfDocuments:      TagInteger,
 		AttributePrintQuality:           TagEnum,
+		AttributePrintColorMode:         TagKeyword,
 		AttributePrinterErrorPolicy:     TagName,
 		AttributePrinterInfo:            TagText,
 		AttributePrinterIsAcceptingJobs: TagBoolean,
